@@ -18,7 +18,7 @@ Mounting:
 ---------
 
 Single hole middle PCB (at 14.5, 22)
-Double holes end PCB (at ,4 & ,40)
+Double holes end PCB (at 96,4 & 96,40)
 
 Size:
 -----
