@@ -1,0 +1,9 @@
+{
+'Version':'1.1',
+'Product':'Electron Prototype PCB',
+parts: [
+{'name':'JP3', 'value':'USB connector', 'FarnellPart':'2476092', 'MfgPartNo':'MC000991', 'price':0.35,'comment':'Optional. Only needed if powering via USB A' },
+{'name':'IC1', 'value':'Electron', 'comment':'User supplied. Photon, Electron or Bluz' },
+{'name':'IC1a', 'value':'18 Way Header',  'FarnellPart':'1593465','MfgPartNo':'2212S-18SG-85', 'quantity':'2', 'price':0.367', 'comment':'Connector in 250+ volumes. Otherwise £1.78 each'},
+
+]}
