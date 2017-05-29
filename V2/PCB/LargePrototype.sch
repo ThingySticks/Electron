@@ -1452,9 +1452,7 @@
 <wire x1="26.035" y1="6.35" x2="25.4" y2="5.715" width="0.2032" layer="21"/>
 <wire x1="27.305" y1="3.81" x2="26.035" y2="3.81" width="0.2032" layer="21"/>
 <wire x1="29.845" y1="6.35" x2="30.48" y2="5.715" width="0.2032" layer="21"/>
-<wire x1="30.48" y1="4.445" x2="29.845" y2="3.81" width="0.2032" layer="21"/>
 <wire x1="28.575" y1="6.35" x2="27.94" y2="5.715" width="0.2032" layer="21"/>
-<wire x1="29.845" y1="3.81" x2="28.575" y2="3.81" width="0.2032" layer="21"/>
 <wire x1="32.385" y1="6.35" x2="33.02" y2="5.715" width="0.2032" layer="21"/>
 <wire x1="31.115" y1="6.35" x2="30.48" y2="5.715" width="0.2032" layer="21"/>
 <wire x1="32.385" y1="3.81" x2="31.115" y2="3.81" width="0.2032" layer="21"/>
@@ -1564,7 +1562,6 @@
 <wire x1="27.94" y1="22.225" x2="27.305" y2="21.59" width="0.2032" layer="21"/>
 <wire x1="25.4" y1="22.225" x2="26.035" y2="21.59" width="0.2032" layer="21"/>
 <wire x1="27.305" y1="21.59" x2="26.035" y2="21.59" width="0.2032" layer="21"/>
-<wire x1="29.845" y1="24.13" x2="30.48" y2="23.495" width="0.2032" layer="21"/>
 <wire x1="30.48" y1="22.225" x2="29.845" y2="21.59" width="0.2032" layer="21"/>
 <wire x1="27.94" y1="22.225" x2="28.575" y2="21.59" width="0.2032" layer="21"/>
 <wire x1="29.845" y1="21.59" x2="28.575" y2="21.59" width="0.2032" layer="21"/>
@@ -1643,48 +1640,50 @@
 <wire x1="42.545" y1="24.13" x2="41.275" y2="24.13" width="0.2032" layer="21"/>
 <wire x1="45.085" y1="24.13" x2="43.815" y2="24.13" width="0.2032" layer="21"/>
 <text x="-3.0988" y="17.7038" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
-<wire x1="-2.54" y1="24.13" x2="45.72" y2="24.13" width="0.2032" layer="21"/>
+<wire x1="-2.54" y1="24.13" x2="30.48" y2="24.13" width="0.2032" layer="21"/>
+<wire x1="30.48" y1="24.13" x2="45.72" y2="24.13" width="0.2032" layer="21"/>
 <wire x1="45.72" y1="24.13" x2="48.26" y2="22.86" width="0.2032" layer="21"/>
 <wire x1="48.26" y1="22.86" x2="48.26" y2="5.08" width="0.2032" layer="21"/>
 <wire x1="48.26" y1="5.08" x2="45.72" y2="3.81" width="0.2032" layer="21"/>
-<wire x1="45.72" y1="3.81" x2="-2.54" y2="3.81" width="0.2032" layer="21"/>
+<wire x1="45.72" y1="3.81" x2="30.48" y2="3.81" width="0.2032" layer="21"/>
+<wire x1="30.48" y1="3.81" x2="-2.54" y2="3.81" width="0.2032" layer="21"/>
 <wire x1="-2.54" y1="3.81" x2="-2.54" y2="24.13" width="0.2032" layer="21"/>
-<text x="2.2225" y="27.6225" size="0.8128" layer="25" rot="R180">3v3</text>
-<text x="4.7625" y="27.6225" size="0.8128" layer="25" rot="R180">/RS</text>
-<text x="6.985" y="27.6225" size="0.8128" layer="25" rot="R180">VB</text>
-<text x="10.16" y="27.6225" size="0.8128" layer="25" rot="R180">GND</text>
-<text x="11.43" y="26.67" size="0.8128" layer="25" rot="R90">D7</text>
-<text x="1.27" y="0" size="0.8128" layer="25" rot="R90">Vin</text>
-<text x="4.7625" y="0.9525" size="0.8128" layer="25" rot="R180">GND</text>
-<text x="6.35" y="0" size="0.8128" layer="25" rot="R90">TX</text>
-<text x="8.89" y="0" size="0.8128" layer="25" rot="R90">RX</text>
-<text x="10.4775" y="0.3175" size="0.8128" layer="25">WK</text>
-<text x="14.9225" y="0.9525" size="0.8128" layer="25" rot="R180">DAC</text>
-<text x="16.51" y="0" size="0.8128" layer="25" rot="R90">A5</text>
-<text x="19.05" y="0" size="0.8128" layer="25" rot="R90">A4</text>
-<text x="21.59" y="0" size="0.8128" layer="25" rot="R90">A3</text>
-<text x="24.13" y="0" size="0.8128" layer="25" rot="R90">A2</text>
-<text x="26.67" y="0" size="0.8128" layer="25" rot="R90">A1</text>
-<text x="29.21" y="0" size="0.8128" layer="25" rot="R90">A0</text>
-<text x="31.75" y="0" size="0.8128" layer="25" rot="R90">B5</text>
-<text x="34.29" y="0" size="0.8128" layer="25" rot="R90">B4</text>
-<text x="36.83" y="0" size="0.8128" layer="25" rot="R90">B3</text>
-<text x="39.37" y="0" size="0.8128" layer="25" rot="R90">B2</text>
-<text x="41.91" y="0" size="0.8128" layer="25" rot="R90">B1</text>
-<text x="44.45" y="0" size="0.8128" layer="25" rot="R90">B0</text>
-<text x="13.97" y="26.67" size="0.8128" layer="25" rot="R90">D6</text>
-<text x="16.51" y="26.67" size="0.8128" layer="25" rot="R90">D5</text>
-<text x="19.05" y="26.67" size="0.8128" layer="25" rot="R90">D4</text>
-<text x="21.59" y="26.67" size="0.8128" layer="25" rot="R90">D3</text>
-<text x="24.13" y="26.67" size="0.8128" layer="25" rot="R90">D2</text>
-<text x="26.67" y="26.67" size="0.8128" layer="25" rot="R90">D1</text>
-<text x="29.21" y="26.67" size="0.8128" layer="25" rot="R90">D0</text>
-<text x="31.75" y="26.67" size="0.8128" layer="25" rot="R90">C5</text>
-<text x="34.29" y="26.67" size="0.8128" layer="25" rot="R90">C4</text>
-<text x="36.83" y="26.67" size="0.8128" layer="25" rot="R90">C3</text>
-<text x="39.37" y="26.67" size="0.8128" layer="25" rot="R90">C2</text>
-<text x="41.91" y="26.67" size="0.8128" layer="25" rot="R90">C1</text>
-<text x="44.45" y="26.67" size="0.8128" layer="25" rot="R90">C0</text>
+<text x="1.905" y="26.67" size="0.8128" layer="25" rot="R90">3v3</text>
+<text x="4.445" y="26.67" size="0.8128" layer="25" rot="R90">/RS</text>
+<text x="6.985" y="26.67" size="1.27" layer="25" rot="R90">VB</text>
+<text x="9.525" y="26.67" size="0.8128" layer="25" rot="R90">GND</text>
+<text x="12.065" y="26.67" size="1.27" layer="25" rot="R90">D7</text>
+<text x="0.635" y="1.27" size="0.8128" layer="25" rot="R270">Vin</text>
+<text x="3.175" y="1.27" size="0.8128" layer="25" rot="R270">GND</text>
+<text x="5.715" y="1.27" size="1.27" layer="25" rot="R270">TX</text>
+<text x="8.255" y="1.27" size="1.27" layer="25" rot="R270">RX</text>
+<text x="10.795" y="1.27" size="0.8128" layer="25" rot="R270">WKP</text>
+<text x="13.335" y="1.27" size="0.8128" layer="25" rot="R270">DAC</text>
+<text x="15.875" y="1.27" size="1.27" layer="25" rot="R270">A5</text>
+<text x="18.415" y="1.27" size="1.27" layer="25" rot="R270">A4</text>
+<text x="20.955" y="1.27" size="1.27" layer="25" rot="R270">A3</text>
+<text x="23.495" y="1.27" size="1.27" layer="25" rot="R270">A2</text>
+<text x="26.035" y="1.27" size="1.27" layer="25" rot="R270">A1</text>
+<text x="28.575" y="1.27" size="1.27" layer="25" rot="R270">A0</text>
+<text x="31.115" y="1.27" size="1.27" layer="25" rot="R270">B5</text>
+<text x="33.655" y="1.27" size="1.27" layer="25" rot="R270">B4</text>
+<text x="36.195" y="1.27" size="1.27" layer="25" rot="R270">B3</text>
+<text x="38.735" y="1.27" size="1.27" layer="25" rot="R270">B2</text>
+<text x="41.275" y="1.27" size="1.27" layer="25" rot="R270">B1</text>
+<text x="43.815" y="1.27" size="1.27" layer="25" rot="R270">B0</text>
+<text x="14.605" y="26.67" size="1.27" layer="25" rot="R90">D6</text>
+<text x="17.145" y="26.67" size="1.27" layer="25" rot="R90">D5</text>
+<text x="19.685" y="26.67" size="1.27" layer="25" rot="R90">D4</text>
+<text x="22.225" y="26.67" size="1.27" layer="25" rot="R90">D3</text>
+<text x="24.765" y="26.67" size="1.27" layer="25" rot="R90">D2</text>
+<text x="27.305" y="26.67" size="1.27" layer="25" rot="R90">D1</text>
+<text x="29.845" y="26.67" size="1.27" layer="25" rot="R90">D0</text>
+<text x="32.385" y="26.67" size="1.27" layer="25" rot="R90">C5</text>
+<text x="34.925" y="26.67" size="1.27" layer="25" rot="R90">C4</text>
+<text x="37.465" y="26.67" size="1.27" layer="25" rot="R90">C3</text>
+<text x="40.005" y="26.67" size="1.27" layer="25" rot="R90">C2</text>
+<text x="42.545" y="26.67" size="1.27" layer="25" rot="R90">C1</text>
+<text x="45.085" y="26.67" size="1.27" layer="25" rot="R90">C0</text>
 <pad name="3V3_1" x="1.27" y="25.4" drill="1.1" diameter="1.9304"/>
 <pad name="RST_1" x="3.81" y="25.4" drill="1.1" diameter="1.9304"/>
 <pad name="VBATT_1" x="6.35" y="25.4" drill="1.1" diameter="1.9304"/>
@@ -1721,16 +1720,12 @@
 <pad name="TX_1" x="6.35" y="2.54" drill="1.1" diameter="1.9304"/>
 <pad name="GND_1B" x="3.81" y="2.54" drill="1.1" diameter="1.9304"/>
 <pad name="VIN_1B" x="1.27" y="2.54" drill="1.1" diameter="1.9304"/>
-<wire x1="30.48" y1="23.495" x2="30.48" y2="21.59" width="0.127" layer="27"/>
-<wire x1="30.48" y1="21.59" x2="33.02" y2="21.59" width="0.127" layer="27"/>
-<wire x1="33.02" y1="21.59" x2="33.02" y2="6.35" width="0.127" layer="27"/>
-<wire x1="33.02" y1="6.35" x2="30.48" y2="6.35" width="0.127" layer="27"/>
-<wire x1="30.48" y1="6.35" x2="30.48" y2="4.445" width="0.127" layer="27"/>
-<text x="34.925" y="7.62" size="1.27" layer="27" rot="R90">^^ PHOTON ^^</text>
-<text x="50.165" y="5.715" size="1.27" layer="27" rot="R90">^^ ELLECTRON ^^</text>
+<text x="30.48" y="7.62" size="1.27" layer="27" rot="R90">^^ PHOTON ^^</text>
 <rectangle x1="27.94" y1="6.35" x2="39.37" y2="21.59" layer="42"/>
 <rectangle x1="30.48" y1="6.35" x2="39.37" y2="21.59" layer="41"/>
-<text x="37.465" y="8.89" size="1.016" layer="39" rot="R90">Photon Keepout</text>
+<text x="38.735" y="7.62" size="1.016" layer="39" rot="R90">Photon Keepout</text>
+<wire x1="30.48" y1="5.715" x2="30.48" y2="3.81" width="0.2032" layer="21"/>
+<wire x1="30.48" y1="24.13" x2="30.48" y2="22.225" width="0.2032" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -12859,109 +12854,6 @@ Not recommended if you're trying to fit a specific chip.</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="jumper">
-<description>&lt;b&gt;Jumpers&lt;/b&gt;&lt;p&gt;
-&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
-<packages>
-<package name="SJ">
-<description>&lt;b&gt;Solder jumper&lt;/b&gt;</description>
-<wire x1="1.397" y1="-1.016" x2="-1.397" y2="-1.016" width="0.1524" layer="21"/>
-<wire x1="1.397" y1="1.016" x2="1.651" y2="0.762" width="0.1524" layer="21" curve="-90"/>
-<wire x1="-1.651" y1="0.762" x2="-1.397" y2="1.016" width="0.1524" layer="21" curve="-90"/>
-<wire x1="-1.651" y1="-0.762" x2="-1.397" y2="-1.016" width="0.1524" layer="21" curve="90"/>
-<wire x1="1.397" y1="-1.016" x2="1.651" y2="-0.762" width="0.1524" layer="21" curve="90"/>
-<wire x1="1.651" y1="-0.762" x2="1.651" y2="0.762" width="0.1524" layer="21"/>
-<wire x1="-1.651" y1="-0.762" x2="-1.651" y2="0.762" width="0.1524" layer="21"/>
-<wire x1="-1.397" y1="1.016" x2="1.397" y2="1.016" width="0.1524" layer="21"/>
-<wire x1="1.016" y1="0" x2="1.524" y2="0" width="0.1524" layer="51"/>
-<wire x1="-1.016" y1="0" x2="-1.524" y2="0" width="0.1524" layer="51"/>
-<wire x1="-0.254" y1="-0.127" x2="-0.254" y2="0.127" width="1.27" layer="51" curve="-180" cap="flat"/>
-<wire x1="0.254" y1="0.127" x2="0.254" y2="-0.127" width="1.27" layer="51" curve="-180" cap="flat"/>
-<smd name="1" x="-0.762" y="0" dx="1.1684" dy="1.6002" layer="1"/>
-<smd name="2" x="0.762" y="0" dx="1.1684" dy="1.6002" layer="1"/>
-<text x="-1.651" y="1.143" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="0.4001" y="0" size="0.02" layer="27">&gt;VALUE</text>
-<rectangle x1="-0.0762" y1="-0.9144" x2="0.0762" y2="0.9144" layer="29"/>
-</package>
-<package name="SJW">
-<description>&lt;b&gt;Solder jumper&lt;/b&gt;</description>
-<wire x1="1.905" y1="-1.524" x2="-1.905" y2="-1.524" width="0.1524" layer="21"/>
-<wire x1="1.905" y1="1.524" x2="2.159" y2="1.27" width="0.1524" layer="21" curve="-90"/>
-<wire x1="-2.159" y1="1.27" x2="-1.905" y2="1.524" width="0.1524" layer="21" curve="-90"/>
-<wire x1="-2.159" y1="-1.27" x2="-1.905" y2="-1.524" width="0.1524" layer="21" curve="90"/>
-<wire x1="1.905" y1="-1.524" x2="2.159" y2="-1.27" width="0.1524" layer="21" curve="90"/>
-<wire x1="2.159" y1="-1.27" x2="2.159" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="-2.159" y1="-1.27" x2="-2.159" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="-1.905" y1="1.524" x2="1.905" y2="1.524" width="0.1524" layer="21"/>
-<wire x1="0.762" y1="0.762" x2="0.762" y2="-0.762" width="0.1524" layer="51"/>
-<wire x1="-0.762" y1="0.762" x2="-0.762" y2="-0.762" width="0.1524" layer="51"/>
-<wire x1="1.524" y1="0" x2="2.032" y2="0" width="0.1524" layer="51"/>
-<wire x1="-1.524" y1="0" x2="-2.032" y2="0" width="0.1524" layer="51"/>
-<wire x1="0.762" y1="0.762" x2="0.762" y2="-0.762" width="0.1524" layer="51" curve="-180"/>
-<wire x1="-0.762" y1="0.762" x2="-0.762" y2="-0.762" width="0.1524" layer="51" curve="180"/>
-<smd name="1" x="-1.27" y="0" dx="1.27" dy="2.54" layer="1"/>
-<smd name="2" x="1.27" y="0" dx="1.27" dy="2.54" layer="1"/>
-<text x="-2.159" y="1.778" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="1" y="0" size="0.02" layer="27">&gt;VALUE</text>
-<rectangle x1="0.762" y1="-0.762" x2="1.016" y2="0.762" layer="51"/>
-<rectangle x1="1.016" y1="-0.635" x2="1.27" y2="0.635" layer="51"/>
-<rectangle x1="1.27" y1="-0.508" x2="1.397" y2="0.508" layer="51"/>
-<rectangle x1="1.397" y1="-0.254" x2="1.524" y2="0.254" layer="51"/>
-<rectangle x1="-1.016" y1="-0.762" x2="-0.762" y2="0.762" layer="51"/>
-<rectangle x1="-1.27" y1="-0.635" x2="-1.016" y2="0.635" layer="51"/>
-<rectangle x1="-1.397" y1="-0.508" x2="-1.27" y2="0.508" layer="51"/>
-<rectangle x1="-1.524" y1="-0.254" x2="-1.397" y2="0.254" layer="51"/>
-<rectangle x1="0.9652" y1="-0.7112" x2="1.0922" y2="-0.5842" layer="51"/>
-<rectangle x1="1.3462" y1="-0.3556" x2="1.4732" y2="-0.2286" layer="51"/>
-<rectangle x1="1.3462" y1="0.2032" x2="1.4732" y2="0.3302" layer="51"/>
-<rectangle x1="0.9652" y1="0.5842" x2="1.0922" y2="0.7112" layer="51"/>
-<rectangle x1="-1.0922" y1="-0.7112" x2="-0.9652" y2="-0.5842" layer="51"/>
-<rectangle x1="-1.4478" y1="-0.3302" x2="-1.3208" y2="-0.2032" layer="51"/>
-<rectangle x1="-1.4732" y1="0.2032" x2="-1.3462" y2="0.3302" layer="51"/>
-<rectangle x1="-1.1176" y1="0.5842" x2="-0.9906" y2="0.7112" layer="51"/>
-</package>
-</packages>
-<symbols>
-<symbol name="SJ">
-<wire x1="0.381" y1="0.635" x2="0.381" y2="-0.635" width="1.27" layer="94" curve="-180" cap="flat"/>
-<wire x1="-0.381" y1="-0.635" x2="-0.381" y2="0.635" width="1.27" layer="94" curve="-180" cap="flat"/>
-<wire x1="2.54" y1="0" x2="1.651" y2="0" width="0.1524" layer="94"/>
-<wire x1="-2.54" y1="0" x2="-1.651" y2="0" width="0.1524" layer="94"/>
-<text x="-2.54" y="2.54" size="1.778" layer="95">&gt;NAME</text>
-<text x="-2.54" y="-3.81" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="2" x="5.08" y="0" visible="pad" length="short" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="1" x="-5.08" y="0" visible="pad" length="short" direction="pas" swaplevel="1"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="SJ" prefix="SJ" uservalue="yes">
-<description>SMD solder &lt;b&gt;JUMPER&lt;/b&gt;</description>
-<gates>
-<gate name="1" symbol="SJ" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="SJ">
-<connects>
-<connect gate="1" pin="1" pad="1"/>
-<connect gate="1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="W" package="SJW">
-<connects>
-<connect gate="1" pin="1" pad="1"/>
-<connect gate="1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 </libraries>
 <attributes>
 </attributes>
@@ -13157,37 +13049,7 @@ Not recommended if you're trying to fit a specific chip.</description>
 <part name="JP97" library="SparkFun-Connectors" deviceset="M02" device="PTH"/>
 <part name="R62" library="SparkFun-Resistors" deviceset="RESISTOR" device="1206" value="I2C Pullup"/>
 <part name="R63" library="SparkFun-Resistors" deviceset="RESISTOR" device="1206" value="I2C Pullup"/>
-<part name="SJ1" library="jumper" deviceset="SJ" device=""/>
 <part name="SUPPLY11" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
-<part name="SJ2" library="jumper" deviceset="SJ" device=""/>
-<part name="SJ3" library="jumper" deviceset="SJ" device=""/>
-<part name="SJ4" library="jumper" deviceset="SJ" device=""/>
-<part name="SJ5" library="jumper" deviceset="SJ" device=""/>
-<part name="SJ6" library="jumper" deviceset="SJ" device=""/>
-<part name="SJ7" library="jumper" deviceset="SJ" device=""/>
-<part name="SJ8" library="jumper" deviceset="SJ" device=""/>
-<part name="SJ9" library="jumper" deviceset="SJ" device=""/>
-<part name="SJ10" library="jumper" deviceset="SJ" device=""/>
-<part name="SJ11" library="jumper" deviceset="SJ" device=""/>
-<part name="SJ12" library="jumper" deviceset="SJ" device=""/>
-<part name="SJ13" library="jumper" deviceset="SJ" device=""/>
-<part name="SJ14" library="jumper" deviceset="SJ" device=""/>
-<part name="SJ15" library="jumper" deviceset="SJ" device=""/>
-<part name="SJ16" library="jumper" deviceset="SJ" device=""/>
-<part name="SJ17" library="jumper" deviceset="SJ" device=""/>
-<part name="SJ18" library="jumper" deviceset="SJ" device=""/>
-<part name="SJ19" library="jumper" deviceset="SJ" device=""/>
-<part name="SJ20" library="jumper" deviceset="SJ" device=""/>
-<part name="SJ21" library="jumper" deviceset="SJ" device=""/>
-<part name="SJ22" library="jumper" deviceset="SJ" device=""/>
-<part name="SJ23" library="jumper" deviceset="SJ" device=""/>
-<part name="SJ24" library="jumper" deviceset="SJ" device=""/>
-<part name="SJ25" library="jumper" deviceset="SJ" device=""/>
-<part name="SJ26" library="jumper" deviceset="SJ" device=""/>
-<part name="SJ27" library="jumper" deviceset="SJ" device=""/>
-<part name="SJ28" library="jumper" deviceset="SJ" device=""/>
-<part name="SJ29" library="jumper" deviceset="SJ" device=""/>
-<part name="SJ30" library="jumper" deviceset="SJ" device=""/>
 <part name="R64" library="SparkFun-Resistors" deviceset="RESISTOR" device="1206" value="I2C Pullup"/>
 <part name="R65" library="SparkFun-Resistors" deviceset="RESISTOR" device="1206" value="I2C Pullup"/>
 <part name="JP54" library="SparkFun-Connectors" deviceset="M08" device="" value="A5"/>
@@ -13229,10 +13091,22 @@ Not recommended if you're trying to fit a specific chip.</description>
 <part name="GND12" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="LOGO2" library="SparkFun-Aesthetics" deviceset="OSHW-LOGO" device="L"/>
 <part name="LOGO3" library="SparkFun-Aesthetics" deviceset="OSHW-LOGO" device="M"/>
+<part name="JP8" library="SparkFun-Connectors" deviceset="M02" device="PTH"/>
+<part name="JP32" library="SparkFun-Connectors" deviceset="M02" device="PTH"/>
+<part name="GND13" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
+<part name="SUPPLY15" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
+<part name="C6" library="SparkFun-Capacitors" deviceset="1UF-25V-10%(0805)" device="&quot;"/>
+<part name="SUPPLY16" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
+<part name="GND14" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
+<part name="C7" library="SparkFun-Capacitors" deviceset="1UF-25V-10%(0805)" device="&quot;"/>
+<part name="SUPPLY17" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
+<part name="GND15" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
 <plain>
+<text x="241.3" y="7.62" size="2.54" layer="97">2</text>
+<text x="171.45" y="11.43" size="2.54" layer="97">S.Harrison</text>
 </plain>
 <instances>
 <instance part="U$1" gate="G$1" x="111.76" y="154.94"/>
@@ -13612,37 +13486,7 @@ Not recommended if you're trying to fit a specific chip.</description>
 <instance part="R63" gate="G$1" x="83.82" y="17.78" smashed="yes" rot="R90">
 <attribute name="VALUE" x="87.122" y="13.97" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="SJ1" gate="1" x="93.98" y="132.08"/>
 <instance part="SUPPLY11" gate="G$1" x="83.82" y="27.94"/>
-<instance part="SJ2" gate="1" x="132.08" y="132.08"/>
-<instance part="SJ3" gate="1" x="132.08" y="134.62"/>
-<instance part="SJ4" gate="1" x="132.08" y="137.16"/>
-<instance part="SJ5" gate="1" x="132.08" y="139.7"/>
-<instance part="SJ6" gate="1" x="132.08" y="142.24"/>
-<instance part="SJ7" gate="1" x="132.08" y="144.78"/>
-<instance part="SJ8" gate="1" x="132.08" y="152.4"/>
-<instance part="SJ9" gate="1" x="132.08" y="154.94"/>
-<instance part="SJ10" gate="1" x="132.08" y="160.02"/>
-<instance part="SJ11" gate="1" x="132.08" y="157.48"/>
-<instance part="SJ12" gate="1" x="132.08" y="162.56"/>
-<instance part="SJ13" gate="1" x="132.08" y="165.1"/>
-<instance part="SJ14" gate="1" x="93.98" y="170.18"/>
-<instance part="SJ15" gate="1" x="93.98" y="167.64"/>
-<instance part="SJ16" gate="1" x="93.98" y="165.1"/>
-<instance part="SJ17" gate="1" x="93.98" y="162.56"/>
-<instance part="SJ18" gate="1" x="93.98" y="160.02"/>
-<instance part="SJ19" gate="1" x="93.98" y="157.48"/>
-<instance part="SJ20" gate="1" x="93.98" y="154.94"/>
-<instance part="SJ21" gate="1" x="93.98" y="152.4"/>
-<instance part="SJ22" gate="1" x="93.98" y="149.86"/>
-<instance part="SJ23" gate="1" x="93.98" y="147.32"/>
-<instance part="SJ24" gate="1" x="93.98" y="144.78"/>
-<instance part="SJ25" gate="1" x="93.98" y="142.24"/>
-<instance part="SJ26" gate="1" x="93.98" y="139.7"/>
-<instance part="SJ27" gate="1" x="93.98" y="137.16"/>
-<instance part="SJ28" gate="1" x="93.98" y="134.62"/>
-<instance part="SJ29" gate="1" x="132.08" y="149.86"/>
-<instance part="SJ30" gate="1" x="132.08" y="147.32"/>
 <instance part="R64" gate="G$1" x="73.66" y="17.78" smashed="yes" rot="R90">
 <attribute name="VALUE" x="76.962" y="13.97" size="1.778" layer="96" rot="R90"/>
 </instance>
@@ -13696,6 +13540,18 @@ Not recommended if you're trying to fit a specific chip.</description>
 <instance part="GND12" gate="1" x="68.58" y="162.56"/>
 <instance part="LOGO2" gate="G$1" x="236.22" y="93.98" smashed="yes"/>
 <instance part="LOGO3" gate="G$1" x="121.92" y="17.78"/>
+<instance part="JP8" gate="G$1" x="220.98" y="-7.62" rot="R270"/>
+<instance part="JP32" gate="G$1" x="35.56" y="-7.62" rot="R270"/>
+<instance part="GND13" gate="1" x="30.48" y="-20.32"/>
+<instance part="SUPPLY15" gate="G$1" x="231.14" y="-12.7" smashed="yes">
+<attribute name="VALUE" x="230.124" y="-9.144" size="1.778" layer="96"/>
+</instance>
+<instance part="C6" gate="G$1" x="294.64" y="129.54"/>
+<instance part="SUPPLY16" gate="G$1" x="294.64" y="137.16"/>
+<instance part="GND14" gate="1" x="294.64" y="121.92"/>
+<instance part="C7" gate="G$1" x="304.8" y="129.54"/>
+<instance part="SUPPLY17" gate="G$1" x="304.8" y="137.16"/>
+<instance part="GND15" gate="1" x="304.8" y="121.92"/>
 </instances>
 <busses>
 </busses>
@@ -13859,6 +13715,25 @@ Not recommended if you're trying to fit a specific chip.</description>
 <wire x1="68.58" y1="175.26" x2="68.58" y2="177.8" width="0.1524" layer="91"/>
 <pinref part="C4" gate="G$1" pin="1"/>
 <junction x="68.58" y="175.26"/>
+</segment>
+<segment>
+<pinref part="JP8" gate="G$1" pin="1"/>
+<pinref part="JP8" gate="G$1" pin="2"/>
+<wire x1="220.98" y1="-15.24" x2="223.52" y2="-15.24" width="0.1524" layer="91"/>
+<wire x1="223.52" y1="-15.24" x2="231.14" y2="-15.24" width="0.1524" layer="91"/>
+<wire x1="231.14" y1="-15.24" x2="231.14" y2="-12.7" width="0.1524" layer="91"/>
+<pinref part="SUPPLY15" gate="G$1" pin="3.3V"/>
+<junction x="223.52" y="-15.24"/>
+</segment>
+<segment>
+<pinref part="C6" gate="G$1" pin="1"/>
+<pinref part="SUPPLY16" gate="G$1" pin="3.3V"/>
+<wire x1="294.64" y1="134.62" x2="294.64" y2="137.16" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C7" gate="G$1" pin="1"/>
+<pinref part="SUPPLY17" gate="G$1" pin="3.3V"/>
+<wire x1="304.8" y1="134.62" x2="304.8" y2="137.16" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -14050,6 +13925,25 @@ Not recommended if you're trying to fit a specific chip.</description>
 <wire x1="68.58" y1="167.64" x2="68.58" y2="165.1" width="0.1524" layer="91"/>
 <pinref part="C4" gate="G$1" pin="2"/>
 <junction x="68.58" y="167.64"/>
+</segment>
+<segment>
+<pinref part="JP32" gate="G$1" pin="2"/>
+<pinref part="JP32" gate="G$1" pin="1"/>
+<wire x1="38.1" y1="-15.24" x2="35.56" y2="-15.24" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="-15.24" x2="30.48" y2="-15.24" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="-15.24" x2="30.48" y2="-17.78" width="0.1524" layer="91"/>
+<pinref part="GND13" gate="1" pin="GND"/>
+<junction x="35.56" y="-15.24"/>
+</segment>
+<segment>
+<pinref part="GND14" gate="1" pin="GND"/>
+<pinref part="C6" gate="G$1" pin="2"/>
+<wire x1="294.64" y1="124.46" x2="294.64" y2="127" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND15" gate="1" pin="GND"/>
+<pinref part="C7" gate="G$1" pin="2"/>
+<wire x1="304.8" y1="124.46" x2="304.8" y2="127" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="12V" class="0">
@@ -14843,90 +14737,6 @@ Not recommended if you're trying to fit a specific chip.</description>
 <wire x1="53.34" y1="-33.02" x2="50.8" y2="-33.02" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="D1" class="0">
-<segment>
-<pinref part="SJ29" gate="1" pin="1"/>
-<pinref part="U$1" gate="G$1" pin="D1"/>
-<wire x1="124.46" y1="149.86" x2="127" y2="149.86" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="C5" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="C5"/>
-<wire x1="124.46" y1="144.78" x2="127" y2="144.78" width="0.1524" layer="91"/>
-<pinref part="SJ7" gate="1" pin="1"/>
-</segment>
-</net>
-<net name="N$99" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="C3"/>
-<wire x1="124.46" y1="139.7" x2="127" y2="139.7" width="0.1524" layer="91"/>
-<pinref part="SJ5" gate="1" pin="1"/>
-</segment>
-</net>
-<net name="N$100" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="C2"/>
-<wire x1="124.46" y1="137.16" x2="127" y2="137.16" width="0.1524" layer="91"/>
-<pinref part="SJ4" gate="1" pin="1"/>
-</segment>
-</net>
-<net name="N$101" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="C1"/>
-<wire x1="124.46" y1="134.62" x2="127" y2="134.62" width="0.1524" layer="91"/>
-<pinref part="SJ3" gate="1" pin="1"/>
-</segment>
-</net>
-<net name="N$102" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="C0"/>
-<wire x1="124.46" y1="132.08" x2="127" y2="132.08" width="0.1524" layer="91"/>
-<pinref part="SJ2" gate="1" pin="1"/>
-</segment>
-</net>
-<net name="N$103" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="D2"/>
-<wire x1="124.46" y1="152.4" x2="127" y2="152.4" width="0.1524" layer="91"/>
-<pinref part="SJ8" gate="1" pin="1"/>
-</segment>
-</net>
-<net name="N$105" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="D3"/>
-<wire x1="124.46" y1="154.94" x2="127" y2="154.94" width="0.1524" layer="91"/>
-<pinref part="SJ9" gate="1" pin="1"/>
-</segment>
-</net>
-<net name="N$106" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="D4"/>
-<wire x1="124.46" y1="157.48" x2="127" y2="157.48" width="0.1524" layer="91"/>
-<pinref part="SJ11" gate="1" pin="1"/>
-</segment>
-</net>
-<net name="N$107" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="D5"/>
-<wire x1="124.46" y1="160.02" x2="127" y2="160.02" width="0.1524" layer="91"/>
-<pinref part="SJ10" gate="1" pin="1"/>
-</segment>
-</net>
-<net name="N$108" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="D6"/>
-<wire x1="124.46" y1="162.56" x2="127" y2="162.56" width="0.1524" layer="91"/>
-<pinref part="SJ12" gate="1" pin="1"/>
-</segment>
-</net>
-<net name="N$109" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="D7"/>
-<wire x1="124.46" y1="165.1" x2="127" y2="165.1" width="0.1524" layer="91"/>
-<pinref part="SJ13" gate="1" pin="1"/>
-</segment>
-</net>
 <net name="N$110" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="VBAT"/>
@@ -14939,137 +14749,11 @@ Not recommended if you're trying to fit a specific chip.</description>
 <wire x1="124.46" y1="172.72" x2="127" y2="172.72" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$112" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="TX"/>
-<wire x1="101.6" y1="170.18" x2="99.06" y2="170.18" width="0.1524" layer="91"/>
-<pinref part="SJ14" gate="1" pin="2"/>
-</segment>
-</net>
-<net name="N$113" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="RX"/>
-<wire x1="101.6" y1="167.64" x2="99.06" y2="167.64" width="0.1524" layer="91"/>
-<pinref part="SJ15" gate="1" pin="2"/>
-</segment>
-</net>
-<net name="N$114" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="WKP"/>
-<wire x1="101.6" y1="165.1" x2="99.06" y2="165.1" width="0.1524" layer="91"/>
-<pinref part="SJ16" gate="1" pin="2"/>
-</segment>
-</net>
-<net name="N$115" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="DAC"/>
-<wire x1="101.6" y1="162.56" x2="99.06" y2="162.56" width="0.1524" layer="91"/>
-<pinref part="SJ17" gate="1" pin="2"/>
-</segment>
-</net>
-<net name="N$116" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="A5"/>
-<wire x1="101.6" y1="160.02" x2="99.06" y2="160.02" width="0.1524" layer="91"/>
-<pinref part="SJ18" gate="1" pin="2"/>
-</segment>
-</net>
-<net name="N$117" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="A4"/>
-<wire x1="101.6" y1="157.48" x2="99.06" y2="157.48" width="0.1524" layer="91"/>
-<pinref part="SJ19" gate="1" pin="2"/>
-</segment>
-</net>
-<net name="N$118" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="A3"/>
-<wire x1="101.6" y1="154.94" x2="99.06" y2="154.94" width="0.1524" layer="91"/>
-<pinref part="SJ20" gate="1" pin="2"/>
-</segment>
-</net>
-<net name="N$119" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="A2"/>
-<wire x1="101.6" y1="152.4" x2="99.06" y2="152.4" width="0.1524" layer="91"/>
-<pinref part="SJ21" gate="1" pin="2"/>
-</segment>
-</net>
-<net name="N$120" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="A1"/>
-<wire x1="101.6" y1="149.86" x2="99.06" y2="149.86" width="0.1524" layer="91"/>
-<pinref part="SJ22" gate="1" pin="2"/>
-</segment>
-</net>
-<net name="N$121" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="A0"/>
-<wire x1="101.6" y1="147.32" x2="99.06" y2="147.32" width="0.1524" layer="91"/>
-<pinref part="SJ23" gate="1" pin="2"/>
-</segment>
-</net>
-<net name="N$122" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="B5"/>
-<wire x1="101.6" y1="144.78" x2="99.06" y2="144.78" width="0.1524" layer="91"/>
-<pinref part="SJ24" gate="1" pin="2"/>
-</segment>
-</net>
-<net name="N$123" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="B4"/>
-<wire x1="101.6" y1="142.24" x2="99.06" y2="142.24" width="0.1524" layer="91"/>
-<pinref part="SJ25" gate="1" pin="2"/>
-</segment>
-</net>
-<net name="N$124" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="B3"/>
-<wire x1="101.6" y1="139.7" x2="99.06" y2="139.7" width="0.1524" layer="91"/>
-<pinref part="SJ26" gate="1" pin="2"/>
-</segment>
-</net>
-<net name="N$125" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="B2"/>
-<wire x1="101.6" y1="137.16" x2="99.06" y2="137.16" width="0.1524" layer="91"/>
-<pinref part="SJ27" gate="1" pin="2"/>
-</segment>
-</net>
-<net name="N$126" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="B1"/>
-<wire x1="101.6" y1="134.62" x2="99.06" y2="134.62" width="0.1524" layer="91"/>
-<pinref part="SJ28" gate="1" pin="2"/>
-</segment>
-</net>
-<net name="N$127" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="B0"/>
-<pinref part="SJ1" gate="1" pin="2"/>
-<wire x1="99.06" y1="132.08" x2="101.6" y2="132.08" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="D0" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="D0"/>
-<pinref part="SJ30" gate="1" pin="1"/>
-<wire x1="124.46" y1="147.32" x2="127" y2="147.32" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="C4" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="C4"/>
-<wire x1="124.46" y1="142.24" x2="127" y2="142.24" width="0.1524" layer="91"/>
-<pinref part="SJ6" gate="1" pin="1"/>
-</segment>
-</net>
 <net name="B0C" class="0">
 <segment>
-<pinref part="SJ1" gate="1" pin="1"/>
-<wire x1="88.9" y1="132.08" x2="86.36" y2="132.08" width="0.1524" layer="91"/>
 <label x="86.36" y="132.08" size="1.016" layer="95" rot="R180" xref="yes"/>
+<pinref part="U$1" gate="G$1" pin="B0"/>
+<wire x1="86.36" y1="132.08" x2="101.6" y2="132.08" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="JP108" gate="G$1" pin="8"/>
@@ -15100,9 +14784,9 @@ Not recommended if you're trying to fit a specific chip.</description>
 </net>
 <net name="B1C" class="0">
 <segment>
-<pinref part="SJ28" gate="1" pin="1"/>
-<wire x1="88.9" y1="134.62" x2="86.36" y2="134.62" width="0.1524" layer="91"/>
 <label x="86.36" y="134.62" size="1.016" layer="95" rot="R180" xref="yes"/>
+<pinref part="U$1" gate="G$1" pin="B1"/>
+<wire x1="101.6" y1="134.62" x2="86.36" y2="134.62" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="JP107" gate="G$1" pin="8"/>
@@ -15133,9 +14817,9 @@ Not recommended if you're trying to fit a specific chip.</description>
 </net>
 <net name="B2C" class="0">
 <segment>
-<pinref part="SJ27" gate="1" pin="1"/>
-<wire x1="88.9" y1="137.16" x2="86.36" y2="137.16" width="0.1524" layer="91"/>
 <label x="86.36" y="137.16" size="1.016" layer="95" rot="R180" xref="yes"/>
+<pinref part="U$1" gate="G$1" pin="B2"/>
+<wire x1="101.6" y1="137.16" x2="86.36" y2="137.16" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="JP106" gate="G$1" pin="8"/>
@@ -15166,9 +14850,9 @@ Not recommended if you're trying to fit a specific chip.</description>
 </net>
 <net name="B3C" class="0">
 <segment>
-<pinref part="SJ26" gate="1" pin="1"/>
-<wire x1="88.9" y1="139.7" x2="86.36" y2="139.7" width="0.1524" layer="91"/>
 <label x="86.36" y="139.7" size="1.016" layer="95" rot="R180" xref="yes"/>
+<pinref part="U$1" gate="G$1" pin="B3"/>
+<wire x1="86.36" y1="139.7" x2="101.6" y2="139.7" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="JP105" gate="G$1" pin="8"/>
@@ -15199,9 +14883,9 @@ Not recommended if you're trying to fit a specific chip.</description>
 </net>
 <net name="B4C" class="0">
 <segment>
-<pinref part="SJ25" gate="1" pin="1"/>
-<wire x1="88.9" y1="142.24" x2="86.36" y2="142.24" width="0.1524" layer="91"/>
 <label x="86.36" y="142.24" size="1.016" layer="95" rot="R180" xref="yes"/>
+<pinref part="U$1" gate="G$1" pin="B4"/>
+<wire x1="101.6" y1="142.24" x2="86.36" y2="142.24" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="JP104" gate="G$1" pin="8"/>
@@ -15232,9 +14916,9 @@ Not recommended if you're trying to fit a specific chip.</description>
 </net>
 <net name="B5C" class="0">
 <segment>
-<pinref part="SJ24" gate="1" pin="1"/>
-<wire x1="88.9" y1="144.78" x2="86.36" y2="144.78" width="0.1524" layer="91"/>
 <label x="86.36" y="144.78" size="1.016" layer="95" rot="R180" xref="yes"/>
+<pinref part="U$1" gate="G$1" pin="B5"/>
+<wire x1="86.36" y1="144.78" x2="101.6" y2="144.78" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="JP103" gate="G$1" pin="8"/>
@@ -15265,9 +14949,9 @@ Not recommended if you're trying to fit a specific chip.</description>
 </net>
 <net name="A0C" class="0">
 <segment>
-<pinref part="SJ23" gate="1" pin="1"/>
-<wire x1="88.9" y1="147.32" x2="86.36" y2="147.32" width="0.1524" layer="91"/>
 <label x="86.36" y="147.32" size="1.016" layer="95" rot="R180" xref="yes"/>
+<pinref part="U$1" gate="G$1" pin="A0"/>
+<wire x1="101.6" y1="147.32" x2="86.36" y2="147.32" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="JP102" gate="G$1" pin="8"/>
@@ -15298,9 +14982,9 @@ Not recommended if you're trying to fit a specific chip.</description>
 </net>
 <net name="A1C" class="0">
 <segment>
-<pinref part="SJ22" gate="1" pin="1"/>
-<wire x1="88.9" y1="149.86" x2="86.36" y2="149.86" width="0.1524" layer="91"/>
 <label x="86.36" y="149.86" size="1.016" layer="95" rot="R180" xref="yes"/>
+<pinref part="U$1" gate="G$1" pin="A1"/>
+<wire x1="86.36" y1="149.86" x2="101.6" y2="149.86" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="JP101" gate="G$1" pin="8"/>
@@ -15331,9 +15015,9 @@ Not recommended if you're trying to fit a specific chip.</description>
 </net>
 <net name="A2C" class="0">
 <segment>
-<pinref part="SJ21" gate="1" pin="1"/>
-<wire x1="88.9" y1="152.4" x2="86.36" y2="152.4" width="0.1524" layer="91"/>
 <label x="86.36" y="152.4" size="1.016" layer="95" rot="R180" xref="yes"/>
+<pinref part="U$1" gate="G$1" pin="A2"/>
+<wire x1="101.6" y1="152.4" x2="86.36" y2="152.4" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="JP100" gate="G$1" pin="8"/>
@@ -15364,9 +15048,9 @@ Not recommended if you're trying to fit a specific chip.</description>
 </net>
 <net name="A3C" class="0">
 <segment>
-<pinref part="SJ20" gate="1" pin="1"/>
-<wire x1="88.9" y1="154.94" x2="86.36" y2="154.94" width="0.1524" layer="91"/>
 <label x="86.36" y="154.94" size="1.016" layer="95" rot="R180" xref="yes"/>
+<pinref part="U$1" gate="G$1" pin="A3"/>
+<wire x1="86.36" y1="154.94" x2="101.6" y2="154.94" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="JP99" gate="G$1" pin="8"/>
@@ -15397,9 +15081,9 @@ Not recommended if you're trying to fit a specific chip.</description>
 </net>
 <net name="A4C" class="0">
 <segment>
-<pinref part="SJ19" gate="1" pin="1"/>
-<wire x1="88.9" y1="157.48" x2="86.36" y2="157.48" width="0.1524" layer="91"/>
 <label x="86.36" y="157.48" size="1.016" layer="95" rot="R180" xref="yes"/>
+<pinref part="U$1" gate="G$1" pin="A4"/>
+<wire x1="101.6" y1="157.48" x2="86.36" y2="157.48" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="JP98" gate="G$1" pin="8"/>
@@ -15430,9 +15114,9 @@ Not recommended if you're trying to fit a specific chip.</description>
 </net>
 <net name="A5C" class="0">
 <segment>
-<pinref part="SJ18" gate="1" pin="1"/>
-<wire x1="88.9" y1="160.02" x2="86.36" y2="160.02" width="0.1524" layer="91"/>
 <label x="86.36" y="160.02" size="1.016" layer="95" rot="R180" xref="yes"/>
+<pinref part="U$1" gate="G$1" pin="A5"/>
+<wire x1="86.36" y1="160.02" x2="101.6" y2="160.02" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="JP54" gate="G$1" pin="8"/>
@@ -15463,9 +15147,9 @@ Not recommended if you're trying to fit a specific chip.</description>
 </net>
 <net name="DACC" class="0">
 <segment>
-<pinref part="SJ17" gate="1" pin="1"/>
-<wire x1="88.9" y1="162.56" x2="86.36" y2="162.56" width="0.1524" layer="91"/>
 <label x="86.36" y="162.56" size="1.016" layer="95" rot="R180" xref="yes"/>
+<pinref part="U$1" gate="G$1" pin="DAC"/>
+<wire x1="86.36" y1="162.56" x2="101.6" y2="162.56" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="JP15" gate="G$1" pin="8"/>
@@ -15496,9 +15180,9 @@ Not recommended if you're trying to fit a specific chip.</description>
 </net>
 <net name="WKPC" class="0">
 <segment>
-<pinref part="SJ16" gate="1" pin="1"/>
-<wire x1="88.9" y1="165.1" x2="86.36" y2="165.1" width="0.1524" layer="91"/>
 <label x="86.36" y="165.1" size="1.016" layer="95" rot="R180" xref="yes"/>
+<pinref part="U$1" gate="G$1" pin="WKP"/>
+<wire x1="86.36" y1="165.1" x2="101.6" y2="165.1" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="JP9" gate="G$1" pin="8"/>
@@ -15529,9 +15213,9 @@ Not recommended if you're trying to fit a specific chip.</description>
 </net>
 <net name="RXC" class="0">
 <segment>
-<pinref part="SJ15" gate="1" pin="1"/>
-<wire x1="88.9" y1="167.64" x2="86.36" y2="167.64" width="0.1524" layer="91"/>
 <label x="86.36" y="167.64" size="1.016" layer="95" rot="R180" xref="yes"/>
+<pinref part="U$1" gate="G$1" pin="RX"/>
+<wire x1="86.36" y1="167.64" x2="101.6" y2="167.64" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="JP12" gate="G$1" pin="8"/>
@@ -15562,9 +15246,9 @@ Not recommended if you're trying to fit a specific chip.</description>
 </net>
 <net name="TXC" class="0">
 <segment>
-<pinref part="SJ14" gate="1" pin="1"/>
-<wire x1="88.9" y1="170.18" x2="86.36" y2="170.18" width="0.1524" layer="91"/>
 <label x="86.36" y="170.18" size="1.016" layer="95" rot="R180" xref="yes"/>
+<pinref part="U$1" gate="G$1" pin="TX"/>
+<wire x1="101.6" y1="170.18" x2="86.36" y2="170.18" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="JP17" gate="G$1" pin="8"/>
@@ -15595,9 +15279,9 @@ Not recommended if you're trying to fit a specific chip.</description>
 </net>
 <net name="C0C" class="0">
 <segment>
-<pinref part="SJ2" gate="1" pin="2"/>
-<wire x1="137.16" y1="132.08" x2="139.7" y2="132.08" width="0.1524" layer="91"/>
 <label x="139.7" y="132.08" size="1.016" layer="95" xref="yes"/>
+<pinref part="U$1" gate="G$1" pin="C0"/>
+<wire x1="139.7" y1="132.08" x2="124.46" y2="132.08" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="JP29" gate="G$1" pin="1"/>
@@ -15631,9 +15315,9 @@ Not recommended if you're trying to fit a specific chip.</description>
 </net>
 <net name="C1C" class="0">
 <segment>
-<pinref part="SJ3" gate="1" pin="2"/>
-<wire x1="137.16" y1="134.62" x2="139.7" y2="134.62" width="0.1524" layer="91"/>
 <label x="139.7" y="134.62" size="1.016" layer="95" xref="yes"/>
+<pinref part="U$1" gate="G$1" pin="C1"/>
+<wire x1="139.7" y1="134.62" x2="124.46" y2="134.62" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R26" gate="G$1" pin="1"/>
@@ -15667,9 +15351,9 @@ Not recommended if you're trying to fit a specific chip.</description>
 </net>
 <net name="C2C" class="0">
 <segment>
-<pinref part="SJ4" gate="1" pin="2"/>
-<wire x1="137.16" y1="137.16" x2="139.7" y2="137.16" width="0.1524" layer="91"/>
 <label x="139.7" y="137.16" size="1.016" layer="95" xref="yes"/>
+<pinref part="U$1" gate="G$1" pin="C2"/>
+<wire x1="139.7" y1="137.16" x2="124.46" y2="137.16" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R24" gate="G$1" pin="1"/>
@@ -15703,9 +15387,9 @@ Not recommended if you're trying to fit a specific chip.</description>
 </net>
 <net name="C3C" class="0">
 <segment>
-<pinref part="SJ5" gate="1" pin="2"/>
-<wire x1="137.16" y1="139.7" x2="139.7" y2="139.7" width="0.1524" layer="91"/>
 <label x="139.7" y="139.7" size="1.016" layer="95" xref="yes"/>
+<pinref part="U$1" gate="G$1" pin="C3"/>
+<wire x1="139.7" y1="139.7" x2="124.46" y2="139.7" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R22" gate="G$1" pin="1"/>
@@ -15739,9 +15423,9 @@ Not recommended if you're trying to fit a specific chip.</description>
 </net>
 <net name="C4C" class="0">
 <segment>
-<pinref part="SJ6" gate="1" pin="2"/>
-<wire x1="137.16" y1="142.24" x2="139.7" y2="142.24" width="0.1524" layer="91"/>
 <label x="139.7" y="142.24" size="1.016" layer="95" xref="yes"/>
+<pinref part="U$1" gate="G$1" pin="C4"/>
+<wire x1="139.7" y1="142.24" x2="124.46" y2="142.24" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R20" gate="G$1" pin="1"/>
@@ -15781,9 +15465,9 @@ Not recommended if you're trying to fit a specific chip.</description>
 </net>
 <net name="C5C" class="0">
 <segment>
-<pinref part="SJ7" gate="1" pin="2"/>
-<wire x1="137.16" y1="144.78" x2="139.7" y2="144.78" width="0.1524" layer="91"/>
 <label x="139.7" y="144.78" size="1.016" layer="95" xref="yes"/>
+<pinref part="U$1" gate="G$1" pin="C5"/>
+<wire x1="139.7" y1="144.78" x2="124.46" y2="144.78" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="JP24" gate="G$1" pin="8"/>
@@ -15823,9 +15507,9 @@ Not recommended if you're trying to fit a specific chip.</description>
 </net>
 <net name="D0C" class="0">
 <segment>
-<pinref part="SJ30" gate="1" pin="2"/>
-<wire x1="137.16" y1="147.32" x2="139.7" y2="147.32" width="0.1524" layer="91"/>
 <label x="139.7" y="147.32" size="1.016" layer="95" xref="yes"/>
+<pinref part="U$1" gate="G$1" pin="D0"/>
+<wire x1="139.7" y1="147.32" x2="124.46" y2="147.32" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R16" gate="G$1" pin="1"/>
@@ -15865,9 +15549,9 @@ Not recommended if you're trying to fit a specific chip.</description>
 </net>
 <net name="D1C" class="0">
 <segment>
-<pinref part="SJ29" gate="1" pin="2"/>
-<wire x1="137.16" y1="149.86" x2="139.7" y2="149.86" width="0.1524" layer="91"/>
 <label x="139.7" y="149.86" size="1.016" layer="95" xref="yes"/>
+<pinref part="U$1" gate="G$1" pin="D1"/>
+<wire x1="139.7" y1="149.86" x2="124.46" y2="149.86" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R14" gate="G$1" pin="1"/>
@@ -15907,9 +15591,9 @@ Not recommended if you're trying to fit a specific chip.</description>
 </net>
 <net name="D2C" class="0">
 <segment>
-<pinref part="SJ8" gate="1" pin="2"/>
-<wire x1="137.16" y1="152.4" x2="139.7" y2="152.4" width="0.1524" layer="91"/>
 <label x="139.7" y="152.4" size="1.016" layer="95" xref="yes"/>
+<pinref part="U$1" gate="G$1" pin="D2"/>
+<wire x1="139.7" y1="152.4" x2="124.46" y2="152.4" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="JP20" gate="G$1" pin="1"/>
@@ -15943,9 +15627,9 @@ Not recommended if you're trying to fit a specific chip.</description>
 </net>
 <net name="D3C" class="0">
 <segment>
-<pinref part="SJ9" gate="1" pin="2"/>
-<wire x1="137.16" y1="154.94" x2="139.7" y2="154.94" width="0.1524" layer="91"/>
 <label x="139.7" y="154.94" size="1.016" layer="95" xref="yes"/>
+<pinref part="U$1" gate="G$1" pin="D3"/>
+<wire x1="139.7" y1="154.94" x2="124.46" y2="154.94" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R10" gate="G$1" pin="1"/>
@@ -15979,9 +15663,9 @@ Not recommended if you're trying to fit a specific chip.</description>
 </net>
 <net name="D4C" class="0">
 <segment>
-<pinref part="SJ11" gate="1" pin="2"/>
-<wire x1="137.16" y1="157.48" x2="139.7" y2="157.48" width="0.1524" layer="91"/>
 <label x="139.7" y="157.48" size="1.016" layer="95" xref="yes"/>
+<pinref part="U$1" gate="G$1" pin="D4"/>
+<wire x1="139.7" y1="157.48" x2="124.46" y2="157.48" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="JP18" gate="G$1" pin="8"/>
@@ -16015,9 +15699,9 @@ Not recommended if you're trying to fit a specific chip.</description>
 </net>
 <net name="D5C" class="0">
 <segment>
-<pinref part="SJ10" gate="1" pin="2"/>
-<wire x1="137.16" y1="160.02" x2="139.7" y2="160.02" width="0.1524" layer="91"/>
 <label x="139.7" y="160.02" size="1.016" layer="95" xref="yes"/>
+<pinref part="U$1" gate="G$1" pin="D5"/>
+<wire x1="139.7" y1="160.02" x2="124.46" y2="160.02" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R6" gate="G$1" pin="2"/>
@@ -16051,9 +15735,9 @@ Not recommended if you're trying to fit a specific chip.</description>
 </net>
 <net name="D6C" class="0">
 <segment>
-<pinref part="SJ12" gate="1" pin="2"/>
-<wire x1="137.16" y1="162.56" x2="139.7" y2="162.56" width="0.1524" layer="91"/>
 <label x="139.7" y="162.56" size="1.016" layer="95" xref="yes"/>
+<pinref part="U$1" gate="G$1" pin="D6"/>
+<wire x1="139.7" y1="162.56" x2="124.46" y2="162.56" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="JP7" gate="G$1" pin="8"/>
@@ -16087,9 +15771,9 @@ Not recommended if you're trying to fit a specific chip.</description>
 </net>
 <net name="D7C" class="0">
 <segment>
-<pinref part="SJ13" gate="1" pin="2"/>
-<wire x1="137.16" y1="165.1" x2="139.7" y2="165.1" width="0.1524" layer="91"/>
 <label x="139.7" y="165.1" size="1.016" layer="95" xref="yes"/>
+<pinref part="U$1" gate="G$1" pin="D7"/>
+<wire x1="139.7" y1="165.1" x2="124.46" y2="165.1" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="JP1" gate="G$1" pin="8"/>
@@ -16483,36 +16167,6 @@ Not recommended if you're trying to fit a specific chip.</description>
 <approved hash="113,1,53.5347,-182.203,JP95,,,,,"/>
 <approved hash="113,1,53.5347,-194.903,JP96,,,,,"/>
 <approved hash="113,1,53.5347,-207.603,JP97,,,,,"/>
-<approved hash="113,1,93.98,133.596,SJ1,,,,,"/>
-<approved hash="113,1,132.08,133.596,SJ2,,,,,"/>
-<approved hash="113,1,132.08,136.136,SJ3,,,,,"/>
-<approved hash="113,1,132.08,138.676,SJ4,,,,,"/>
-<approved hash="113,1,132.08,141.216,SJ5,,,,,"/>
-<approved hash="113,1,132.08,143.756,SJ6,,,,,"/>
-<approved hash="113,1,132.08,146.296,SJ7,,,,,"/>
-<approved hash="113,1,132.08,153.916,SJ8,,,,,"/>
-<approved hash="113,1,132.08,156.456,SJ9,,,,,"/>
-<approved hash="113,1,132.08,161.536,SJ10,,,,,"/>
-<approved hash="113,1,132.08,158.996,SJ11,,,,,"/>
-<approved hash="113,1,132.08,164.076,SJ12,,,,,"/>
-<approved hash="113,1,132.08,166.616,SJ13,,,,,"/>
-<approved hash="113,1,93.98,171.696,SJ14,,,,,"/>
-<approved hash="113,1,93.98,169.156,SJ15,,,,,"/>
-<approved hash="113,1,93.98,166.616,SJ16,,,,,"/>
-<approved hash="113,1,93.98,164.076,SJ17,,,,,"/>
-<approved hash="113,1,93.98,161.536,SJ18,,,,,"/>
-<approved hash="113,1,93.98,158.996,SJ19,,,,,"/>
-<approved hash="113,1,93.98,156.456,SJ20,,,,,"/>
-<approved hash="113,1,93.98,153.916,SJ21,,,,,"/>
-<approved hash="113,1,93.98,151.376,SJ22,,,,,"/>
-<approved hash="113,1,93.98,148.836,SJ23,,,,,"/>
-<approved hash="113,1,93.98,146.296,SJ24,,,,,"/>
-<approved hash="113,1,93.98,143.756,SJ25,,,,,"/>
-<approved hash="113,1,93.98,141.216,SJ26,,,,,"/>
-<approved hash="113,1,93.98,138.676,SJ27,,,,,"/>
-<approved hash="113,1,93.98,136.136,SJ28,,,,,"/>
-<approved hash="113,1,132.08,151.376,SJ29,,,,,"/>
-<approved hash="113,1,132.08,148.836,SJ30,,,,,"/>
 <approved hash="113,1,106.003,-238.565,JP113,,,,,"/>
 <approved hash="113,1,135.297,-241.495,JP114,,,,,"/>
 <approved hash="113,1,135.297,-261.815,JP111,,,,,"/>
@@ -16526,6 +16180,10 @@ Not recommended if you're trying to fit a specific chip.</description>
 <approved hash="113,1,62.6395,171.45,C3,,,,,"/>
 <approved hash="113,1,70.2595,171.45,C4,,,,,"/>
 <approved hash="113,1,77.8795,171.45,C5,,,,,"/>
+<approved hash="113,1,223.715,-12.0227,JP8,,,,,"/>
+<approved hash="113,1,38.2947,-12.0227,JP32,,,,,"/>
+<approved hash="113,1,296.319,130.81,C6,,,,,"/>
+<approved hash="113,1,306.479,130.81,C7,,,,,"/>
 </errors>
 </schematic>
 </drawing>
