@@ -16,6 +16,20 @@ batteryCompartmentLeft = false;
 includeAerialPanel = false;
 includeAerialSlot = true;
 
+// Thickness of the base material.
+baseHeight = 1.5;
+
+// How height off the base the PCB wil lbe.
+height = 8;
+
+// Diameter of the screw hole for the PCB mounts.
+// 4.4mm works well for M3 heatfits.
+pcbMountScrewHoleDiameter = 4.4;
+
+// Diameter of the pins used to locate the PCB
+// instead of screw holes.
+pcbMountPinDiameter = 2.8;
+
 module roundedCube(width, height, depth, cornerDiameter) {
 //cornerDiameter = 5;
 cornerRadius = cornerDiameter/2;
@@ -47,11 +61,11 @@ cornerRadius = cornerDiameter/2;
 
 module screw(x,y, height) {
     translate([x,y, 0]) {
-        #cylinder(d=6.5, h=2);
+        cylinder(d=6.5, h=2);
     }
     
     translate([x,y, -4]) {
-        #cylinder(d=3, h=6);
+        cylinder(d=3, h=6);
     }
 }
 
@@ -95,7 +109,7 @@ module pcbMount(x,y, height, baseHeight) {
     translate([x,y, baseHeight-0.1]) {
         difference() {
             cylinder(d=10, h=height);
-            cylinder(d=4.4, h=height);
+            cylinder(d=pcbMountScrewHoleDiameter, h=height);
         }
     }
 }
@@ -104,13 +118,10 @@ module pcbMountPin(x,y, height, baseHeight) {
     translate([x,y, baseHeight-0.1]) {
         union() {
             cylinder(d=10, h=height);
-            cylinder(d=2.8, h=height + 3);
+            cylinder(d=pcbMountPinDiameter, h=height + 3);
         }
     }
 }
-
-baseHeight = 1.5;
-height = 8;
 
 module batteryCompartment() {
 wallWidth = 1.5;
