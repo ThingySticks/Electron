@@ -1,19 +1,31 @@
 $fn=80;
 
+// Width (Note pcb does not centre align).
 width = 100;
+
 // Without aerial
 //length = 117;
 // Stickon Aerial
 //length = 130;
 // Slotted aerial
+
+// Overall length /mm (without aerial 117mm, With aerial 125mm)
 length = 125;
 
 // should be enough to hold the battery
+// Height of the battery compartment
 batteryCompartmentHeight =20;
+
+// Battery compartment on the right
 batteryCompartmentRight = true;
+
+// Battery compartment on the left
 batteryCompartmentLeft = false;
 
+// Include a aerial panel (for the aerial to stick to).
 includeAerialPanel = false;
+
+// Include a slot for the aerial to drop into.
 includeAerialSlot = true;
 
 // Thickness of the base material.
@@ -22,12 +34,10 @@ baseHeight = 1.5;
 // How height off the base the PCB wil lbe.
 height = 8;
 
-// Diameter of the screw hole for the PCB mounts.
-// 4.4mm works well for M3 heatfits.
+// Diameter of the screw hole for the PCB mounts. 4.4mm works well for M3 heatfits.
 pcbMountScrewHoleDiameter = 4.4;
 
-// Diameter of the pins used to locate the PCB
-// instead of screw holes.
+// Diameter of the pins used to locate the PCB instead of screw holes.
 pcbMountPinDiameter = 2.8;
 
 module roundedCube(width, height, depth, cornerDiameter) {
@@ -149,7 +159,7 @@ module aerialPad() {
 aerialWidth = 82;
 xoffset = (width - aerialWidth)/2;
     
-    translate([xoffset, length-2, 0]) {
+    translate([xoffset, length-2, baseHeight-0.1]) {
         cube([aerialWidth,2, 22.5]);
     }
 }
@@ -166,7 +176,7 @@ xoffset = (width - aerialHolderWidth)/2;
     
     // Thick aerial pad with cutout to allow aerial to slot in
     
-    translate([xoffset, length-5, 0]) {
+    translate([xoffset, length-5, baseHeight-0.1]) {
         difference() {
             union() {
                 cube([aerialHolderWidth,5, 22.5]);
