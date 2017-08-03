@@ -1,0 +1,25 @@
+{
+"version":"1.0",
+"product":"Electron Prototype PCB (Large)",
+"parts": [
+
+{"name":"IC2", "value":"Electron", "comment":"User supplied. Photon, Electron or Bluz" },
+{"name":"IC2a", "value":"18 Way Header",  "farnellPart":"1593465","mfgPartNo":"2212S-18SG-85", "quantity":"2", "price":0.367, "comment":"Connector in 250+ volumes. Otherwise £1.78 each"}
+
+{"name":"IC1", "value":"5V Regulator", "comment":"Optional: User supplied. 5C Buck 7805 replacement regulator" },
+
+{"name":"JP4", "value":"terminal block. header 2 pos th (right angle)", "farnellPart":"2493689" "comment":"Optional: User supplied. 5C Buck 7805 replacement regulator" },
+{"name":"JP4a", "value":"terminal block. header 2 pos th (vertical)", "farnellPart":"2493665" "comment":"Optional: User supplied. 5C Buck 7805 replacement regulator", "price":0.235 },
+{"name":"JP4b", "value":"2 Pin Connector", "comment":"Optional" },
+
+{"name":"JP110", "value":"DC Power Jack 2.1mm/2.5mm Dual",  "farnellPart":"1854514","mfgPartNo":"FC681465 DC10L", "quantity":"1", "price":1.18, "comment":"Optional: Dual 2.1 and 2.5"}
+{"name":"JP110", "value":"DC Power Jack 2.1mm", "farnellPart":"224959","mfgPartNo":"FC68148 DC10A", "quantity":"1", "price":1.19, "comment":"Optional: Sold in 10s."}
+
+
+{"name":"D1", "value":"Reverse LED Blue", "case":"1206", "comment":"Optional: User supplied. reverse mount LED", "farnellPart":"2217898", "price":0.215 },
+{"name":"R1", "value":"1k5", "case": "1206", "comment": "bottom layer - optional", "farnellPart":["9335951","2129658"], "price":0.0013},
+
+
+{"name":"R62,R63, R64, R65", "value":"4k7", "case": "0805", "farnellPart":["9333266","2129167"], "mfgPartNo":"MC01W080514k7", "price":0.0009, "qty":4, "comment":"Optional I2C Pullups"},
+
+]}
