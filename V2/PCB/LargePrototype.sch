@@ -12864,7 +12864,7 @@ Not recommended if you're trying to fit a specific chip.</description>
 </class>
 </classes>
 <parts>
-<part name="U$1" library="Tinamous" deviceset="ELECTRON" device="DUALNAMED"/>
+<part name="IC2" library="Tinamous" deviceset="ELECTRON" device="DUALNAMED"/>
 <part name="FRAME1" library="SparkFun-Aesthetics" deviceset="FRAME-LETTER" device=""/>
 <part name="IC1" library="v-reg" deviceset="78XXS" device=""/>
 <part name="C1" library="SparkFun-Capacitors" deviceset="1UF-25V-10%(0805)" device="&quot;"/>
@@ -13109,7 +13109,7 @@ Not recommended if you're trying to fit a specific chip.</description>
 <text x="171.45" y="11.43" size="2.54" layer="97">S.Harrison</text>
 </plain>
 <instances>
-<instance part="U$1" gate="G$1" x="111.76" y="154.94"/>
+<instance part="IC2" gate="G$1" x="111.76" y="154.94"/>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
 <instance part="FRAME1" gate="V" x="147.32" y="0"/>
 <instance part="IC1" gate="1" x="38.1" y="172.72"/>
@@ -13563,7 +13563,7 @@ Not recommended if you're trying to fit a specific chip.</description>
 <wire x1="101.6" y1="5.08" x2="104.14" y2="5.08" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="3V3"/>
+<pinref part="IC2" gate="G$1" pin="3V3"/>
 <pinref part="SUPPLY2" gate="G$1" pin="3.3V"/>
 <wire x1="124.46" y1="175.26" x2="134.62" y2="175.26" width="0.1524" layer="91"/>
 <wire x1="134.62" y1="175.26" x2="134.62" y2="177.8" width="0.1524" layer="91"/>
@@ -13763,12 +13763,12 @@ Not recommended if you're trying to fit a specific chip.</description>
 <junction x="38.1" y="160.02"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="GND@2"/>
+<pinref part="IC2" gate="G$1" pin="GND@2"/>
 <pinref part="GND5" gate="1" pin="GND"/>
 <wire x1="101.6" y1="172.72" x2="88.9" y2="172.72" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="GND"/>
+<pinref part="IC2" gate="G$1" pin="GND"/>
 <pinref part="GND2" gate="1" pin="GND"/>
 <wire x1="124.46" y1="167.64" x2="137.16" y2="167.64" width="0.1524" layer="91"/>
 </segment>
@@ -13994,7 +13994,7 @@ Not recommended if you're trying to fit a specific chip.</description>
 <pinref part="SUPPLY6" gate="G$1" pin="VIN"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="VIN"/>
+<pinref part="IC2" gate="G$1" pin="VIN"/>
 <pinref part="SUPPLY3" gate="G$1" pin="VIN"/>
 <wire x1="101.6" y1="175.26" x2="93.98" y2="175.26" width="0.1524" layer="91"/>
 <wire x1="93.98" y1="175.26" x2="93.98" y2="177.8" width="0.1524" layer="91"/>
@@ -14739,20 +14739,20 @@ Not recommended if you're trying to fit a specific chip.</description>
 </net>
 <net name="N$110" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="VBAT"/>
+<pinref part="IC2" gate="G$1" pin="VBAT"/>
 <wire x1="124.46" y1="170.18" x2="127" y2="170.18" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$111" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="!RST"/>
+<pinref part="IC2" gate="G$1" pin="!RST"/>
 <wire x1="124.46" y1="172.72" x2="127" y2="172.72" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="B0C" class="0">
 <segment>
 <label x="86.36" y="132.08" size="1.016" layer="95" rot="R180" xref="yes"/>
-<pinref part="U$1" gate="G$1" pin="B0"/>
+<pinref part="IC2" gate="G$1" pin="B0"/>
 <wire x1="86.36" y1="132.08" x2="101.6" y2="132.08" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -14785,7 +14785,7 @@ Not recommended if you're trying to fit a specific chip.</description>
 <net name="B1C" class="0">
 <segment>
 <label x="86.36" y="134.62" size="1.016" layer="95" rot="R180" xref="yes"/>
-<pinref part="U$1" gate="G$1" pin="B1"/>
+<pinref part="IC2" gate="G$1" pin="B1"/>
 <wire x1="101.6" y1="134.62" x2="86.36" y2="134.62" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -14818,7 +14818,7 @@ Not recommended if you're trying to fit a specific chip.</description>
 <net name="B2C" class="0">
 <segment>
 <label x="86.36" y="137.16" size="1.016" layer="95" rot="R180" xref="yes"/>
-<pinref part="U$1" gate="G$1" pin="B2"/>
+<pinref part="IC2" gate="G$1" pin="B2"/>
 <wire x1="101.6" y1="137.16" x2="86.36" y2="137.16" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -14851,7 +14851,7 @@ Not recommended if you're trying to fit a specific chip.</description>
 <net name="B3C" class="0">
 <segment>
 <label x="86.36" y="139.7" size="1.016" layer="95" rot="R180" xref="yes"/>
-<pinref part="U$1" gate="G$1" pin="B3"/>
+<pinref part="IC2" gate="G$1" pin="B3"/>
 <wire x1="86.36" y1="139.7" x2="101.6" y2="139.7" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -14884,7 +14884,7 @@ Not recommended if you're trying to fit a specific chip.</description>
 <net name="B4C" class="0">
 <segment>
 <label x="86.36" y="142.24" size="1.016" layer="95" rot="R180" xref="yes"/>
-<pinref part="U$1" gate="G$1" pin="B4"/>
+<pinref part="IC2" gate="G$1" pin="B4"/>
 <wire x1="101.6" y1="142.24" x2="86.36" y2="142.24" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -14917,7 +14917,7 @@ Not recommended if you're trying to fit a specific chip.</description>
 <net name="B5C" class="0">
 <segment>
 <label x="86.36" y="144.78" size="1.016" layer="95" rot="R180" xref="yes"/>
-<pinref part="U$1" gate="G$1" pin="B5"/>
+<pinref part="IC2" gate="G$1" pin="B5"/>
 <wire x1="86.36" y1="144.78" x2="101.6" y2="144.78" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -14950,7 +14950,7 @@ Not recommended if you're trying to fit a specific chip.</description>
 <net name="A0C" class="0">
 <segment>
 <label x="86.36" y="147.32" size="1.016" layer="95" rot="R180" xref="yes"/>
-<pinref part="U$1" gate="G$1" pin="A0"/>
+<pinref part="IC2" gate="G$1" pin="A0"/>
 <wire x1="101.6" y1="147.32" x2="86.36" y2="147.32" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -14983,7 +14983,7 @@ Not recommended if you're trying to fit a specific chip.</description>
 <net name="A1C" class="0">
 <segment>
 <label x="86.36" y="149.86" size="1.016" layer="95" rot="R180" xref="yes"/>
-<pinref part="U$1" gate="G$1" pin="A1"/>
+<pinref part="IC2" gate="G$1" pin="A1"/>
 <wire x1="86.36" y1="149.86" x2="101.6" y2="149.86" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -15016,7 +15016,7 @@ Not recommended if you're trying to fit a specific chip.</description>
 <net name="A2C" class="0">
 <segment>
 <label x="86.36" y="152.4" size="1.016" layer="95" rot="R180" xref="yes"/>
-<pinref part="U$1" gate="G$1" pin="A2"/>
+<pinref part="IC2" gate="G$1" pin="A2"/>
 <wire x1="101.6" y1="152.4" x2="86.36" y2="152.4" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -15049,7 +15049,7 @@ Not recommended if you're trying to fit a specific chip.</description>
 <net name="A3C" class="0">
 <segment>
 <label x="86.36" y="154.94" size="1.016" layer="95" rot="R180" xref="yes"/>
-<pinref part="U$1" gate="G$1" pin="A3"/>
+<pinref part="IC2" gate="G$1" pin="A3"/>
 <wire x1="86.36" y1="154.94" x2="101.6" y2="154.94" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -15082,7 +15082,7 @@ Not recommended if you're trying to fit a specific chip.</description>
 <net name="A4C" class="0">
 <segment>
 <label x="86.36" y="157.48" size="1.016" layer="95" rot="R180" xref="yes"/>
-<pinref part="U$1" gate="G$1" pin="A4"/>
+<pinref part="IC2" gate="G$1" pin="A4"/>
 <wire x1="101.6" y1="157.48" x2="86.36" y2="157.48" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -15115,7 +15115,7 @@ Not recommended if you're trying to fit a specific chip.</description>
 <net name="A5C" class="0">
 <segment>
 <label x="86.36" y="160.02" size="1.016" layer="95" rot="R180" xref="yes"/>
-<pinref part="U$1" gate="G$1" pin="A5"/>
+<pinref part="IC2" gate="G$1" pin="A5"/>
 <wire x1="86.36" y1="160.02" x2="101.6" y2="160.02" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -15148,7 +15148,7 @@ Not recommended if you're trying to fit a specific chip.</description>
 <net name="DACC" class="0">
 <segment>
 <label x="86.36" y="162.56" size="1.016" layer="95" rot="R180" xref="yes"/>
-<pinref part="U$1" gate="G$1" pin="DAC"/>
+<pinref part="IC2" gate="G$1" pin="DAC"/>
 <wire x1="86.36" y1="162.56" x2="101.6" y2="162.56" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -15181,7 +15181,7 @@ Not recommended if you're trying to fit a specific chip.</description>
 <net name="WKPC" class="0">
 <segment>
 <label x="86.36" y="165.1" size="1.016" layer="95" rot="R180" xref="yes"/>
-<pinref part="U$1" gate="G$1" pin="WKP"/>
+<pinref part="IC2" gate="G$1" pin="WKP"/>
 <wire x1="86.36" y1="165.1" x2="101.6" y2="165.1" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -15214,7 +15214,7 @@ Not recommended if you're trying to fit a specific chip.</description>
 <net name="RXC" class="0">
 <segment>
 <label x="86.36" y="167.64" size="1.016" layer="95" rot="R180" xref="yes"/>
-<pinref part="U$1" gate="G$1" pin="RX"/>
+<pinref part="IC2" gate="G$1" pin="RX"/>
 <wire x1="86.36" y1="167.64" x2="101.6" y2="167.64" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -15247,7 +15247,7 @@ Not recommended if you're trying to fit a specific chip.</description>
 <net name="TXC" class="0">
 <segment>
 <label x="86.36" y="170.18" size="1.016" layer="95" rot="R180" xref="yes"/>
-<pinref part="U$1" gate="G$1" pin="TX"/>
+<pinref part="IC2" gate="G$1" pin="TX"/>
 <wire x1="101.6" y1="170.18" x2="86.36" y2="170.18" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -15280,7 +15280,7 @@ Not recommended if you're trying to fit a specific chip.</description>
 <net name="C0C" class="0">
 <segment>
 <label x="139.7" y="132.08" size="1.016" layer="95" xref="yes"/>
-<pinref part="U$1" gate="G$1" pin="C0"/>
+<pinref part="IC2" gate="G$1" pin="C0"/>
 <wire x1="139.7" y1="132.08" x2="124.46" y2="132.08" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -15316,7 +15316,7 @@ Not recommended if you're trying to fit a specific chip.</description>
 <net name="C1C" class="0">
 <segment>
 <label x="139.7" y="134.62" size="1.016" layer="95" xref="yes"/>
-<pinref part="U$1" gate="G$1" pin="C1"/>
+<pinref part="IC2" gate="G$1" pin="C1"/>
 <wire x1="139.7" y1="134.62" x2="124.46" y2="134.62" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -15352,7 +15352,7 @@ Not recommended if you're trying to fit a specific chip.</description>
 <net name="C2C" class="0">
 <segment>
 <label x="139.7" y="137.16" size="1.016" layer="95" xref="yes"/>
-<pinref part="U$1" gate="G$1" pin="C2"/>
+<pinref part="IC2" gate="G$1" pin="C2"/>
 <wire x1="139.7" y1="137.16" x2="124.46" y2="137.16" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -15388,7 +15388,7 @@ Not recommended if you're trying to fit a specific chip.</description>
 <net name="C3C" class="0">
 <segment>
 <label x="139.7" y="139.7" size="1.016" layer="95" xref="yes"/>
-<pinref part="U$1" gate="G$1" pin="C3"/>
+<pinref part="IC2" gate="G$1" pin="C3"/>
 <wire x1="139.7" y1="139.7" x2="124.46" y2="139.7" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -15424,7 +15424,7 @@ Not recommended if you're trying to fit a specific chip.</description>
 <net name="C4C" class="0">
 <segment>
 <label x="139.7" y="142.24" size="1.016" layer="95" xref="yes"/>
-<pinref part="U$1" gate="G$1" pin="C4"/>
+<pinref part="IC2" gate="G$1" pin="C4"/>
 <wire x1="139.7" y1="142.24" x2="124.46" y2="142.24" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -15466,7 +15466,7 @@ Not recommended if you're trying to fit a specific chip.</description>
 <net name="C5C" class="0">
 <segment>
 <label x="139.7" y="144.78" size="1.016" layer="95" xref="yes"/>
-<pinref part="U$1" gate="G$1" pin="C5"/>
+<pinref part="IC2" gate="G$1" pin="C5"/>
 <wire x1="139.7" y1="144.78" x2="124.46" y2="144.78" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -15508,7 +15508,7 @@ Not recommended if you're trying to fit a specific chip.</description>
 <net name="D0C" class="0">
 <segment>
 <label x="139.7" y="147.32" size="1.016" layer="95" xref="yes"/>
-<pinref part="U$1" gate="G$1" pin="D0"/>
+<pinref part="IC2" gate="G$1" pin="D0"/>
 <wire x1="139.7" y1="147.32" x2="124.46" y2="147.32" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -15550,7 +15550,7 @@ Not recommended if you're trying to fit a specific chip.</description>
 <net name="D1C" class="0">
 <segment>
 <label x="139.7" y="149.86" size="1.016" layer="95" xref="yes"/>
-<pinref part="U$1" gate="G$1" pin="D1"/>
+<pinref part="IC2" gate="G$1" pin="D1"/>
 <wire x1="139.7" y1="149.86" x2="124.46" y2="149.86" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -15592,7 +15592,7 @@ Not recommended if you're trying to fit a specific chip.</description>
 <net name="D2C" class="0">
 <segment>
 <label x="139.7" y="152.4" size="1.016" layer="95" xref="yes"/>
-<pinref part="U$1" gate="G$1" pin="D2"/>
+<pinref part="IC2" gate="G$1" pin="D2"/>
 <wire x1="139.7" y1="152.4" x2="124.46" y2="152.4" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -15628,7 +15628,7 @@ Not recommended if you're trying to fit a specific chip.</description>
 <net name="D3C" class="0">
 <segment>
 <label x="139.7" y="154.94" size="1.016" layer="95" xref="yes"/>
-<pinref part="U$1" gate="G$1" pin="D3"/>
+<pinref part="IC2" gate="G$1" pin="D3"/>
 <wire x1="139.7" y1="154.94" x2="124.46" y2="154.94" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -15664,7 +15664,7 @@ Not recommended if you're trying to fit a specific chip.</description>
 <net name="D4C" class="0">
 <segment>
 <label x="139.7" y="157.48" size="1.016" layer="95" xref="yes"/>
-<pinref part="U$1" gate="G$1" pin="D4"/>
+<pinref part="IC2" gate="G$1" pin="D4"/>
 <wire x1="139.7" y1="157.48" x2="124.46" y2="157.48" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -15700,7 +15700,7 @@ Not recommended if you're trying to fit a specific chip.</description>
 <net name="D5C" class="0">
 <segment>
 <label x="139.7" y="160.02" size="1.016" layer="95" xref="yes"/>
-<pinref part="U$1" gate="G$1" pin="D5"/>
+<pinref part="IC2" gate="G$1" pin="D5"/>
 <wire x1="139.7" y1="160.02" x2="124.46" y2="160.02" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -15736,7 +15736,7 @@ Not recommended if you're trying to fit a specific chip.</description>
 <net name="D6C" class="0">
 <segment>
 <label x="139.7" y="162.56" size="1.016" layer="95" xref="yes"/>
-<pinref part="U$1" gate="G$1" pin="D6"/>
+<pinref part="IC2" gate="G$1" pin="D6"/>
 <wire x1="139.7" y1="162.56" x2="124.46" y2="162.56" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -15772,7 +15772,7 @@ Not recommended if you're trying to fit a specific chip.</description>
 <net name="D7C" class="0">
 <segment>
 <label x="139.7" y="165.1" size="1.016" layer="95" xref="yes"/>
-<pinref part="U$1" gate="G$1" pin="D7"/>
+<pinref part="IC2" gate="G$1" pin="D7"/>
 <wire x1="139.7" y1="165.1" x2="124.46" y2="165.1" width="0.1524" layer="91"/>
 </segment>
 <segment>
